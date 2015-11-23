@@ -8,9 +8,15 @@
 		body {
 			margin: 0;
 		}
-		.map {
+		#map {
 			height: 100vh;
 			width: 100vw;
+			overflow: hidden;
+		}
+		.polygon {
+			fill: rgba(255, 255, 255, .6) !important;
+			stroke: #319FD3;
+			stroke-width: 1;
 		}
 		#info {
 			position: fixed;
@@ -41,7 +47,7 @@
 	</style>
 </head>
 <body>
-	<div id="map" class="map"></div>
+	<div id="map"></div>
 	<span id="info">斗六市</span>
 	<script src="script.js"></script>
 </body>

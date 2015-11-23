@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import {Map} from 'react-d3-map';
 
 (function() {
-  var width = 1000;
-  var height = 800;
-  var scale = 1 << 12;
-  var scaleExtent = [1 << 10, 1 << 14]
+  let map = document.getElementById('map');
+  var width = map.offsetWidth;
+  var height = map.offsetHeight;
+  var scale = 1 << 23;
+  var scaleExtent = [1 << 10, 1 << 25]
   var center = [120.5411994, 23.708];
   // your polygon data
   var data = require('./area.json');
@@ -20,7 +21,6 @@ import {Map} from 'react-d3-map';
       center= {center}
       data= {data}
     />
-  , document.getElementById('map')
+  , map
   )
-  console.log('test');
 })()
