@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>斗六門</title>
+	<style>
+		body {
+			margin: 0;
+		}
+		.map {
+			height: 100vh;
+			width: 100vw;
+		}
+		#info {
+			position: fixed;
+			top: .5em;
+			right: .5em;
+			font-size: 1.5em;
+			color: #fff;
+			background-color: #319FD3;
+			padding: .5em;
+		}
+		.tiles-enter {
+			opacity: 0.01;
+		}
+
+		.tiles-enter.tiles-enter-active {
+			opacity: 1;
+			transition: opacity 500ms ease-in;
+		}
+
+		.tiles-leave {
+			opacity: 1;
+		}
+
+		.tiles-leave.tiles-leave-active {
+			opacity: 0.01;
+			transition: opacity 300ms ease-in;
+		}
+	</style>
+</head>
+<body>
+	<div id="map" class="map"></div>
+	<span id="info">斗六市</span>
+	<script src="script.js"></script>
+</body>
+</html>
