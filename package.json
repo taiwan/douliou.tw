@@ -19,7 +19,7 @@
   "homepage": "https://github.com/taiwan/douliou.tw",
   "dependencies": {
     "react": "^0.14.3",
-    "react-d3-map": "^0.3.2",
+    "react-d3-map": "^0.4.3",
     "react-dom": "^0.14.3"
   },
   "devDependencies": {
