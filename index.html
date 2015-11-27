@@ -7,6 +7,9 @@
 	<style>
 		body {
 			margin: 0;
+			height: 100vh;
+			width: 100vw;
+			overflow: hidden;
 		}
 		header {
 			background-color: #010101;
@@ -14,24 +17,45 @@
 			width: 100%;
 			height: 3em;
 			box-sizing: border-box;
+			position: fixed;
+			z-index: 1;
+		}
+		header a {
+			color: inherit;
+			text-decoration: none;
 		}
 		h1 {
 			margin: 0;
 			font-size: 1.2rem;
 			padding: 0 1em;
 			line-height: 3rem;
+			display: inline-block;
 		}
-		#map {
-			height: calc(100vh - 3em);
-			width: 100vw;
-			overflow: hidden;
+		nav {
+			display: inline-block;
+			line-height: 3rem;
 		}
-		.polygon {
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		.react-d3-map-core__zoom-control {
+			top: 4rem !important;
+			left: 1rem !important;
+		}
+		.polygon.boundry {
+			fill: none !important;
+			stroke: #319FD3;
+			stroke-width: 2;
+			stroke-dasharray: 5, 5;
+		}
+		.polygon.village {
 			fill: rgba(255, 255, 255, .6) !important;
 			stroke: #319FD3;
 			stroke-width: 1;
 		}
-		.polygon:hover {
+		.polygon.village:hover {
 			fill: rgba(255, 0, 0, .2) !important;
 			stroke: #f00;
 		}
@@ -64,10 +88,7 @@
 	</style>
 </head>
 <body>
-	<header>
-		<h1>斗六門</h1>
-	</header>
-	<div id="map"></div>
+	<div id="app"></div>
 	<span id="info">斗六市</span>
 	<script src="script.js"></script>
 </body>
