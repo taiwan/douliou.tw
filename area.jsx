@@ -1,14 +1,6 @@
 import React, {Component} from 'react';
 import {PolygonGroup} from 'react-d3-map';
 
-let info = document.getElementById('info');
-const onAreaHover = function(dom, d, i) {
-	if (d.properties.village) info.innerHTML = d.properties.village;
-};
-const onAreaOut = function(dom, d, i) {
-	info.innerHTML = '斗六市';
-};
-
 export default class Area extends Component {
 	constructor(props) {
 		super(props);
@@ -23,10 +15,11 @@ export default class Area extends Component {
 	}
 	render() {
 		const {data} = this.state;
+		const {setInfo} = this.props;
 		return data ? <PolygonGroup
 			data= {data}
-			onMouseOut= {onAreaOut}
-			onMouseOver= {onAreaHover}
+			onMouseOut= {() => setInfo('斗六市')}
+			onMouseOver= {(dom, d, i) => d.properties.village ? setInfo(d.properties.village) : null}
 			polygonClass = "village"
 		/> : null;
 	}
