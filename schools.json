@@ -1,0 +1,58 @@
+{ "type": "FeatureCollection","features": [
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.556441, 23.7411769]},
+		"properties": {"name": "溪洲國民小學", "url": "http://www.sjps.ylc.edu.tw/", "address": "雲林縣斗六市溪洲里萬年路809號", "phone": "5512485"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5364358, 23.7077116]},
+		"properties": {"name": "鎮西國民小學", "url": "http://www.jces.ylc.edu.tw/", "address": "雲林縣斗六市中和里西平路3號", "phone": "5322047"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5501219, 23.7117506]},
+		"properties": {"name": "鎮東國民小學", "url": "http://www.jdps.ylc.edu.tw/", "address": "雲林縣斗六市鎮東里文化路205號", "phone": "5322700"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5351925, 23.6738457]},
+		"properties": {"name": "溝壩國民小學", "url": "http://www.gbes.ylc.edu.tw/", "address": "雲林縣斗六市溝壩里仁義路93號", "phone": "5220734"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5994706, 23.7023119]},
+		"properties": {"name": "梅林國民小學", "url": "http://www.mlps.ylc.edu.tw/", "address": "雲林縣斗六市梅林里梅林路256號", "phone": "5572211"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5823981, 23.7209161]},
+		"properties": {"name": "石榴國民小學", "url": "http://www.slps.ylc.edu.tw/", "address": "雲林縣斗六市榴南里南仁路51號", "phone": "5573386"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5550154, 23.7044558]},
+		"properties": {"name": "林頭國民小學", "url": "http://www.ltps.ylc.edu.tw/", "address": "雲林縣斗六市林頭里榮譽路177號", "phone": "5322538"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5151578, 23.7059324]},
+		"properties": {"name": "保長國民小學", "url": "http://www.bjes.ylc.edu.tw/", "address": "雲林縣斗六市保庄里保長路155號", "phone": "5322982"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5372096, 23.698337]},
+		"properties": {"name": "鎮南國民小學", "url": "http://www.jnes.ylc.edu.tw/", "address": "雲林縣斗六市社口里南揚街60號", "phone": "5322524"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5372255, 23.7152897]},
+		"properties": {"name": "公誠國民小學", "url": "http://www.gces.ylc.edu.tw/", "address": "雲林縣斗六市鎮北里北平路95號", "phone": "5322536"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5116948, 23.6770528]},
+		"properties": {"name": "久安國民小學", "url": "http://www.jaes.ylc.edu.tw/", "address": "雲林縣斗六市久安里久安南路120號", "phone": "5222724"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5477867, 23.7049559]},
+		"properties": {"name": "雲林國民小學", "url": "http://www.yles.ylc.edu.tw/", "address": "雲林縣斗六市莊敬路111號", "phone": "5349500"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5501135, 23.7073559]},
+		"properties": {"name": "斗六國民小學", "url": "http://www.dles.ylc.edu.tw/", "address": "雲林縣斗六市鎮東路225號", "phone": "5379602"}
+	},
+	{ "type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [120.5503187, 23.679668]},
+		"properties": {"name": "私立維多利亞小學", "url": "http://www.victoria.ylc.edu.tw/", "address": "雲林縣斗六市鎮南路1110號", "phone": "5378899"}
+	}
+]}
