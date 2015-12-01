@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "watchify script.jsx -o script.js -t [ babelify --presets [ es2015 react ] ] -v --debug",
+    "build": "browserify script.jsx -o script.js -t [ babelify --presets [ es2015 react ] ]",
     "serve": "browser-sync start --files 'script.js, index.html' --server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

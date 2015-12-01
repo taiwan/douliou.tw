@@ -9,6 +9,7 @@ export default class Menu extends Component {
 				<ul>
 					<li><Link to="area">行政</Link></li>
 					<li><Link to="culture">文教</Link></li>
+					<li><Link to="transport">交通</Link></li>
 				</ul>
 			</nav>
 		</header>;
